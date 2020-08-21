@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strict": true,
+    "lib": ["ES2015", "DOM"]
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules"]
+}
