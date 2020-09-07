@@ -941,7 +941,7 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
-"@sigi/core@^2.4.0", "@sigi/core@^2.4.1":
+"@sigi/core@^2.4.1":
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.4.1.tgz#6c745680f4e8c872a4c8d8dad9f3af29b87b4c77"
   integrity sha512-4ZE+tv2zqoZpkk6YmplKn1bCblnlIRXl2zR43ZZHNPZto/cRS9+ACKqYN2awNr9PGlES1TKqk1Qe/+hdLqASyA==
@@ -4466,10 +4466,10 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rxjs@^6.6.2:
-  version "6.6.2"
-  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.2.tgz#8096a7ac03f2cc4fe5860ef6e572810d9e01c0d2"
-  integrity sha512-BHdBMVoWC2sL26w//BCu3YzKT4s2jip/WhwsGEDmeKYBhKDZeYezVUnHatYB7L85v5xs0BAQmg6BEYJEKxBabg==
+rxjs@^6.6.3:
+  version "6.6.3"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.3.tgz#8ca84635c4daa900c0d3967a6ee7ac60271ee552"
+  integrity sha512-trsQc+xYYXZ3urjOiJOuCOa5N3jAZ3eiSpQB5hIT8zGlL2QfnHLJ2r7GMkBGuIausdJN1OneaI6gQlsqNHHmZQ==
   dependencies:
     tslib "^1.9.0"
 
