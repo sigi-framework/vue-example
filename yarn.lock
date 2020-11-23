@@ -960,12 +960,12 @@
   resolved "https://registry.yarnpkg.com/@sigi/types/-/types-2.4.0.tgz#ff7e8fc8f4707baf03cfb56e9dcb9ce0feca40eb"
   integrity sha512-hCB7bK8LiLkvLAY64+qTrJMVyrF5m6eGWG7V6sftJoy4Sz4pNEq59hNgguC2gkMlybPjn7tDGUMCpKUoRPG/dg==
 
-"@sigi/vue@^2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@sigi/vue/-/vue-2.4.2.tgz#7d87879f9e964733911ad1fab9078b456eeda7cd"
-  integrity sha512-2DTmUb8qWuIWjv2rTnjZxWstt6svqhN1xFr1cPZ5pZWiN58xgIpnKh8scf5syRdnx+XRMUo+sRCK8Ky5oBCpgA==
+"@sigi/vue@^2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@sigi/vue/-/vue-2.4.3.tgz#c441dd8d365d5753f769f4b66f93762822b45c29"
+  integrity sha512-WpazYwogBFzWe7gwLRzVLTUiDT0KgQW8/OtaBd8HsAeu6g5mwxupxR5gysBSqIF+Mu5BpoBvYdigBQ2tscPr+A==
   dependencies:
-    "@sigi/core" "^2.4.2"
+    "@sigi/core" "^2.4.3"
     "@sigi/di" "^2.4.1"
     "@sigi/types" "^2.4.0"
 
