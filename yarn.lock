@@ -941,13 +941,13 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
-"@sigi/core@^2.4.4":
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.4.4.tgz#c6b2d7a5678028a6a1cc845d080478ffec1ff2b3"
-  integrity sha512-MvmkeCE7QuhU4Cd1y+ZTRgmTazACKk4ZBMWpuS1LsTNP/PeLAR4pvxw415CGFPq/IGlC1l362boQdQ86awcCRA==
+"@sigi/core@^2.4.4", "@sigi/core@^2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.4.5.tgz#29c597a053ae3c3425622e5ab7309dc00c3fb595"
+  integrity sha512-BUx/oqLEcK5XVKdHFz1xbUIk99bW3pzBBlvm6etvCUbnV9xVjOYIMncNmKVotiKk481Z64utE1heSUTlFlFNng==
   dependencies:
     "@sigi/di" "^2.4.4"
-    "@sigi/types" "^2.4.0"
+    "@sigi/types" "^2.4.5"
     immer "^8.0.0"
 
 "@sigi/di@^2.4.0", "@sigi/di@^2.4.4":
@@ -955,19 +955,19 @@
   resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.4.4.tgz#74c671838003e577f2d4f00bce7115b20f8fee55"
   integrity sha512-dl/OJA66+Wu7yNi2Ap+94BZtKqIHEZ7pjUeVSc7Xvluw+6zLVuTsfHSDV+jw5xz5Fx0S2sRikpIuHzTGKWrvMA==
 
-"@sigi/types@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@sigi/types/-/types-2.4.0.tgz#ff7e8fc8f4707baf03cfb56e9dcb9ce0feca40eb"
-  integrity sha512-hCB7bK8LiLkvLAY64+qTrJMVyrF5m6eGWG7V6sftJoy4Sz4pNEq59hNgguC2gkMlybPjn7tDGUMCpKUoRPG/dg==
+"@sigi/types@^2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@sigi/types/-/types-2.4.5.tgz#8fb7987bb42e6bedbe6916e0e190af8639d41a65"
+  integrity sha512-EfeGaeWwBsgTiVoFiFnIWS1lUZRTguvs8EVQ9pLA4knadSSYSTQDrHE52M77oAmgBjs0D7jD0QEj1rEu0f3O2Q==
 
-"@sigi/vue@^2.4.4":
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@sigi/vue/-/vue-2.4.4.tgz#0fd19580c7b02f0f7ddba5feeffccff55ce11646"
-  integrity sha512-WfN/PKYOLfYIFlGpOZ9oDansW/eAM5su9v1YbVKe0Rj6JlZxCPVUHYiz+V/nDuff43vOQX4TF+hOR1Rjfwt3hA==
+"@sigi/vue@^2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@sigi/vue/-/vue-2.4.5.tgz#0fbc6a3b5d222c1aadb30af2d0f90ba09386ef7d"
+  integrity sha512-oWUFk5J42t6ptyL0rorkXx0Lclbe/2BI+9p7ic1g0fsPTPWpEiQ4xddKrMmtpv1Z7gE3tNYknNQm9lEz4ycZ4A==
   dependencies:
-    "@sigi/core" "^2.4.4"
+    "@sigi/core" "^2.4.5"
     "@sigi/di" "^2.4.4"
-    "@sigi/types" "^2.4.0"
+    "@sigi/types" "^2.4.5"
 
 "@types/q@^1.5.1":
   version "1.5.4"
