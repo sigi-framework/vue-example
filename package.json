@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@abraham/reflection": "^0.7.0",
-    "@sigi/core": "^2.8.0",
+    "@sigi/core": "^2.8.2",
     "@sigi/di": "^2.8.0",
     "@sigi/vue": "^2.8.0",
     "@vue/component-compiler-utils": "^3.2.0",
