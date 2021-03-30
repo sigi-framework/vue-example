@@ -941,14 +941,14 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
-"@sigi/core@^2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.8.0.tgz#3feda9604ab117541b78700f902093fa22379883"
-  integrity sha512-4jE7v4FUsoSSLoE9mQ9qf+GofJM5qgGjeGmA5SXD7LfAQqTQZfp+P2bbNIu3Z/9OhodjDBqJO8LYodNlVY+oNw==
+"@sigi/core@^2.8.0", "@sigi/core@^2.8.2":
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.8.2.tgz#be1ffdbc876b5c30c10db8ea67c8faac0db4e37c"
+  integrity sha512-zJO95VEBJagCw+p8ce5b996/GDIhLvoOyotH6TCSy8dIyUEOgEWAozc4JAFOmKe+Gkmr0cuTIhzSbCno37X9yg==
   dependencies:
     "@sigi/di" "^2.8.0"
     "@sigi/types" "^2.4.5"
-    immer "^8.0.1"
+    immer "^9.0.1"
 
 "@sigi/di@^2.8.0":
   version "2.8.0"
@@ -960,12 +960,12 @@
   resolved "https://registry.yarnpkg.com/@sigi/types/-/types-2.4.5.tgz#8fb7987bb42e6bedbe6916e0e190af8639d41a65"
   integrity sha512-EfeGaeWwBsgTiVoFiFnIWS1lUZRTguvs8EVQ9pLA4knadSSYSTQDrHE52M77oAmgBjs0D7jD0QEj1rEu0f3O2Q==
 
-"@sigi/vue@^2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@sigi/vue/-/vue-2.8.0.tgz#64c3439e509d912c0489a26e665cce7d99447827"
-  integrity sha512-M2Awoj1pe73AB2DrD48RAExDNUIeMVfAyTnaiOA6GD4HIAnGTkY2GfMRflykZh8nfUAfwakD6glt8JyuoU6sEQ==
+"@sigi/vue@^2.8.2":
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/@sigi/vue/-/vue-2.8.2.tgz#829aaeb5ec383c0f2ff6a92ba1279b03d7379ae1"
+  integrity sha512-1gEpn8QlKU+9knPIDxWoepf4FYvDjAOfBIk+KFH/A3fyD+Bum+TsVmLNiAS/ZDQRhamToRIqi3tZ2gbtDGw2ig==
   dependencies:
-    "@sigi/core" "^2.8.0"
+    "@sigi/core" "^2.8.2"
     "@sigi/di" "^2.8.0"
     "@sigi/types" "^2.4.5"
 
@@ -2736,10 +2736,10 @@ ieee754@^1.1.4:
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.13.tgz#ec168558e95aa181fd87d37f55c32bbcb6708b84"
   integrity sha512-4vf7I2LYV/HaWerSo3XmlMkp5eZ83i+/CDluXi/IGTs/O1sejBNhTtnxzmRZfvOUqj7lZjqHkeTvpgSFDlWZTg==
 
-immer@^8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/immer/-/immer-8.0.1.tgz#9c73db683e2b3975c424fb0572af5889877ae656"
-  integrity sha512-aqXhGP7//Gui2+UrEtvxZxSquQVXTpZ7KDxfCcKAF3Vysvw0CViVaW9RZ1j1xlIYqaaaipBoqdqeibkc18PNvA==
+immer@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.1.tgz#1116368e051f9a0fd188c5136b6efb74ed69c57f"
+  integrity sha512-7CCw1DSgr8kKYXTYOI1qMM/f5qxT5vIVMeGLDCDX8CSxsggr1Sjdoha4OhsP0AZ1UvWbyZlILHvLjaynuu02Mg==
 
 import-fresh@^2.0.0:
   version "2.0.0"
