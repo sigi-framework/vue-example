@@ -941,33 +941,35 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
-"@sigi/core@^2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.8.0.tgz#3feda9604ab117541b78700f902093fa22379883"
-  integrity sha512-4jE7v4FUsoSSLoE9mQ9qf+GofJM5qgGjeGmA5SXD7LfAQqTQZfp+P2bbNIu3Z/9OhodjDBqJO8LYodNlVY+oNw==
+"@sigi/core@^2.8.0", "@sigi/core@^2.9.0":
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/@sigi/core/-/core-2.9.0.tgz#66d634114b20c72295a34f95786f5f9ff6c1b56d"
+  integrity sha512-lIMYtmHvCXBJY+fJ8JBJawQP/SjS8Ae/qCGqHVoDaemOkPjK3yEcbb3fqmR329u5eea8rIHWIttPpZD75CTrYg==
   dependencies:
-    "@sigi/di" "^2.8.0"
-    "@sigi/types" "^2.4.5"
-    immer "^8.0.1"
+    "@sigi/di" "^2.9.0"
+    "@sigi/types" "^2.9.0"
+    tslib "^2.2.0"
 
-"@sigi/di@^2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.8.0.tgz#20e7dbbc06821b1f16bc0885adca036a02e95cf1"
-  integrity sha512-Kf8WYrZHgrqItk1DZnPXp+lpBdY4fbM7L2RZ53NTb8S+zIzoRHbM0gmRFwnQMPtc5B55A0l5rkx0fZYdYtRZhQ==
-
-"@sigi/types@^2.4.5":
-  version "2.4.5"
-  resolved "https://registry.yarnpkg.com/@sigi/types/-/types-2.4.5.tgz#8fb7987bb42e6bedbe6916e0e190af8639d41a65"
-  integrity sha512-EfeGaeWwBsgTiVoFiFnIWS1lUZRTguvs8EVQ9pLA4knadSSYSTQDrHE52M77oAmgBjs0D7jD0QEj1rEu0f3O2Q==
-
-"@sigi/vue@^2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@sigi/vue/-/vue-2.8.0.tgz#64c3439e509d912c0489a26e665cce7d99447827"
-  integrity sha512-M2Awoj1pe73AB2DrD48RAExDNUIeMVfAyTnaiOA6GD4HIAnGTkY2GfMRflykZh8nfUAfwakD6glt8JyuoU6sEQ==
+"@sigi/di@^2.8.0", "@sigi/di@^2.9.0":
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/@sigi/di/-/di-2.9.0.tgz#45a742c026ba6c0a34343d372ceabbeb4f997c5f"
+  integrity sha512-N8GPwjvwkeiXAgUdaGtb5Qgj/rV//hS6RAINlywOIFf5wbG3GTFjq9dKXrxFTBQ8/YcaIu7lwjffRmVMAcePig==
   dependencies:
-    "@sigi/core" "^2.8.0"
-    "@sigi/di" "^2.8.0"
-    "@sigi/types" "^2.4.5"
+    tslib "^2.2.0"
+
+"@sigi/types@^2.9.0":
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/@sigi/types/-/types-2.9.0.tgz#68cd5b743d910aee7324c086f68f4225d4083e12"
+  integrity sha512-lkZns+mx46ujkuR/sZFxIbXw5XkkXxENEYZLLuze0zfbDxsgKMgr1/+X9I2VU8A1ea1DFHmPl04OkdDUHa9Qvg==
+
+"@sigi/vue@^2.9.0":
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/@sigi/vue/-/vue-2.9.0.tgz#4e6223ddf5e56cafc7d5cef84fbabfd93e33a2d4"
+  integrity sha512-NAGlj+Xi6YbGVVgm7Q4I2IZxqhDUmJNHv+8TxdqxTbXuszJdcnQxnq3/P+Z3bLZhc7ueHMeBf1Y7r6/on45O8A==
+  dependencies:
+    "@sigi/core" "^2.9.0"
+    "@sigi/di" "^2.9.0"
+    "@sigi/types" "^2.9.0"
 
 "@types/q@^1.5.1":
   version "1.5.4"
@@ -2735,11 +2737,6 @@ ieee754@^1.1.4:
   version "1.1.13"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.13.tgz#ec168558e95aa181fd87d37f55c32bbcb6708b84"
   integrity sha512-4vf7I2LYV/HaWerSo3XmlMkp5eZ83i+/CDluXi/IGTs/O1sejBNhTtnxzmRZfvOUqj7lZjqHkeTvpgSFDlWZTg==
-
-immer@^8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/immer/-/immer-8.0.1.tgz#9c73db683e2b3975c424fb0572af5889877ae656"
-  integrity sha512-aqXhGP7//Gui2+UrEtvxZxSquQVXTpZ7KDxfCcKAF3Vysvw0CViVaW9RZ1j1xlIYqaaaipBoqdqeibkc18PNvA==
 
 import-fresh@^2.0.0:
   version "2.0.0"
@@ -5002,6 +4999,11 @@ tslib@^1.9.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
   integrity sha512-i/6DQjL8Xf3be4K/E6Wgpekn5Qasl1usyw++dAA35Ue5orEn65VIxOA+YvNNl9HV3qv70T7CNwjODHZrLwvd1Q==
+
+tslib@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.2.0.tgz#fb2c475977e35e241311ede2693cee1ec6698f5c"
+  integrity sha512-gS9GVHRU+RGn5KQM2rllAlR3dU6m7AcpJKdtH8gFvQiC4Otgk98XnmMU+nZenHt/+VhnBPWwgrJsyrdcw6i23w==
 
 tty-browserify@0.0.0:
   version "0.0.0"
